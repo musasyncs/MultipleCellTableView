@@ -13,6 +13,15 @@
 		BAB2C3962718CAE200EBE074 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB2C3942718CAE200EBE074 /* Main.storyboard */; };
 		BAB2C3982718CAE300EBE074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAB2C3972718CAE300EBE074 /* Assets.xcassets */; };
 		BAB2C39B2718CAE300EBE074 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB2C3992718CAE300EBE074 /* LaunchScreen.storyboard */; };
+		BAB2C3A32718CB0000EBE074 /* Extension and Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB2C3A22718CB0000EBE074 /* Extension and Constant.swift */; };
+		BAB2C3A52718CB1C00EBE074 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB2C3A42718CB1C00EBE074 /* TestViewController.swift */; };
+		BAB2C3A82718CB6100EBE074 /* GalleryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB2C3A72718CB6100EBE074 /* GalleryTableViewCell.swift */; };
+		BAB2C3AA2718CBBF00EBE074 /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB2C3A92718CBBF00EBE074 /* GalleryCollectionViewCell.swift */; };
+		BAB2C3AC2718CBE300EBE074 /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB2C3AB2718CBE300EBE074 /* SwitchTableViewCell.swift */; };
+		BAB2C3B02718CC2900EBE074 /* BasicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB2C3AF2718CC2900EBE074 /* BasicTableViewCell.swift */; };
+		BAB2C3B22718CC4D00EBE074 /* StretchyHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB2C3B12718CC4D00EBE074 /* StretchyHeader.swift */; };
+		BAB2C3B42718CC7100EBE074 /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB2C3B32718CC7100EBE074 /* SectionHeader.swift */; };
+		BAB2C3B62718CC8200EBE074 /* SectionFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB2C3B52718CC8200EBE074 /* SectionFooter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		BAB2C3972718CAE300EBE074 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAB2C39A2718CAE300EBE074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAB2C39C2718CAE300EBE074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAB2C3A22718CB0000EBE074 /* Extension and Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension and Constant.swift"; sourceTree = "<group>"; };
+		BAB2C3A42718CB1C00EBE074 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		BAB2C3A72718CB6100EBE074 /* GalleryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryTableViewCell.swift; sourceTree = "<group>"; };
+		BAB2C3A92718CBBF00EBE074 /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
+		BAB2C3AB2718CBE300EBE074 /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
+		BAB2C3AF2718CC2900EBE074 /* BasicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTableViewCell.swift; sourceTree = "<group>"; };
+		BAB2C3B12718CC4D00EBE074 /* StretchyHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyHeader.swift; sourceTree = "<group>"; };
+		BAB2C3B32718CC7100EBE074 /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		BAB2C3B52718CC8200EBE074 /* SectionFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionFooter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +76,62 @@
 			children = (
 				BAB2C38E2718CAE200EBE074 /* AppDelegate.swift */,
 				BAB2C3902718CAE200EBE074 /* SceneDelegate.swift */,
-				BAB2C3922718CAE200EBE074 /* ViewController.swift */,
-				BAB2C3942718CAE200EBE074 /* Main.storyboard */,
+				BAB2C3B82718CCD800EBE074 /* VCs */,
+				BAB2C3A62718CB4900EBE074 /* GalleryCell */,
+				BAB2C3AD2718CBED00EBE074 /* Switch Cell */,
+				BAB2C3AE2718CC0F00EBE074 /* Basic Cell */,
+				BAB2C3B72718CCBF00EBE074 /* Headers and Footers */,
 				BAB2C3972718CAE300EBE074 /* Assets.xcassets */,
+				BAB2C3942718CAE200EBE074 /* Main.storyboard */,
 				BAB2C3992718CAE300EBE074 /* LaunchScreen.storyboard */,
 				BAB2C39C2718CAE300EBE074 /* Info.plist */,
+				BAB2C3A22718CB0000EBE074 /* Extension and Constant.swift */,
 			);
 			path = MultipleCellTableView;
+			sourceTree = "<group>";
+		};
+		BAB2C3A62718CB4900EBE074 /* GalleryCell */ = {
+			isa = PBXGroup;
+			children = (
+				BAB2C3A72718CB6100EBE074 /* GalleryTableViewCell.swift */,
+				BAB2C3A92718CBBF00EBE074 /* GalleryCollectionViewCell.swift */,
+			);
+			path = GalleryCell;
+			sourceTree = "<group>";
+		};
+		BAB2C3AD2718CBED00EBE074 /* Switch Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BAB2C3AB2718CBE300EBE074 /* SwitchTableViewCell.swift */,
+			);
+			path = "Switch Cell";
+			sourceTree = "<group>";
+		};
+		BAB2C3AE2718CC0F00EBE074 /* Basic Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BAB2C3AF2718CC2900EBE074 /* BasicTableViewCell.swift */,
+			);
+			path = "Basic Cell";
+			sourceTree = "<group>";
+		};
+		BAB2C3B72718CCBF00EBE074 /* Headers and Footers */ = {
+			isa = PBXGroup;
+			children = (
+				BAB2C3B12718CC4D00EBE074 /* StretchyHeader.swift */,
+				BAB2C3B32718CC7100EBE074 /* SectionHeader.swift */,
+				BAB2C3B52718CC8200EBE074 /* SectionFooter.swift */,
+			);
+			path = "Headers and Footers";
+			sourceTree = "<group>";
+		};
+		BAB2C3B82718CCD800EBE074 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				BAB2C3922718CAE200EBE074 /* ViewController.swift */,
+				BAB2C3A42718CB1C00EBE074 /* TestViewController.swift */,
+			);
+			path = VCs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +205,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAB2C3B22718CC4D00EBE074 /* StretchyHeader.swift in Sources */,
+				BAB2C3A52718CB1C00EBE074 /* TestViewController.swift in Sources */,
+				BAB2C3AC2718CBE300EBE074 /* SwitchTableViewCell.swift in Sources */,
 				BAB2C3932718CAE200EBE074 /* ViewController.swift in Sources */,
+				BAB2C3A82718CB6100EBE074 /* GalleryTableViewCell.swift in Sources */,
+				BAB2C3A32718CB0000EBE074 /* Extension and Constant.swift in Sources */,
+				BAB2C3B62718CC8200EBE074 /* SectionFooter.swift in Sources */,
+				BAB2C3B02718CC2900EBE074 /* BasicTableViewCell.swift in Sources */,
 				BAB2C38F2718CAE200EBE074 /* AppDelegate.swift in Sources */,
+				BAB2C3B42718CC7100EBE074 /* SectionHeader.swift in Sources */,
+				BAB2C3AA2718CBBF00EBE074 /* GalleryCollectionViewCell.swift in Sources */,
 				BAB2C3912718CAE200EBE074 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
