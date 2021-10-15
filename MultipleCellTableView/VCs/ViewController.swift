@@ -45,7 +45,7 @@ class ViewController: UIViewController {
     }
     
     private func setupViewModels() {
-        sections.append(Section(title: "", cellTypes: [
+        sections.append(Section(title: "最近上線", cellTypes: [
             .galleryTableViewCellType(
                 viewModels: [
                     GalleryCollectionViewCellVM(title: "Abigail", imageName:"Abigail"),
@@ -59,7 +59,7 @@ class ViewController: UIViewController {
             )
         ]))
 
-        sections.append(Section(title: "", cellTypes: [
+        sections.append(Section(title: "尋找設定", cellTypes: [
             .switchCellType(
                 viewModel: SwitchTableViewCellVM(
                     title: "全球",
@@ -81,7 +81,7 @@ class ViewController: UIViewController {
             )
         ]))
         
-        sections.append(Section(title: "", cellTypes: [
+        sections.append(Section(title: "帳號設定", cellTypes: [
             .basicTableViewCellType(
                 viewModel: BasicTableViewCellVM(
                     title: "電話號碼",
@@ -161,15 +161,15 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         switch section {
         case 0:
             let header = tableView.dequeueReusableHeaderFooterView(withIdentifier: "\(SectionHeader.self)") as! SectionHeader
-            header.configure(text: "最近上線")
+            header.configure(text: sections[section].title)
             return header
         case 1:
             let header = tableView.dequeueReusableHeaderFooterView(withIdentifier: "\(SectionHeader.self)") as! SectionHeader
-            header.configure(text: "尋找設定")
+            header.configure(text: sections[section].title)
             return header
         case 2:
             let header = tableView.dequeueReusableHeaderFooterView(withIdentifier: "\(SectionHeader.self)") as! SectionHeader
-            header.configure(text: "帳號設定")
+            header.configure(text: sections[section].title)
             return header
         default:
             return nil
